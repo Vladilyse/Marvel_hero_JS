@@ -1,0 +1,772 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(73, 73, 73);
+}
+.general{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+select{
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 10px black;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 17px -1px #000000; 
+    box-shadow: 5px 5px 17px -1px #000000;
+}
+option{
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+
+.first_list{
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto
+}
+.block_list1{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(120deg, rgb(202, 20, 7), rgb(6, 32, 150));
+    border-radius: 50px;
+    position: relative;
+}
+.block_list1 img{
+    height: 270px;
+}
+.block_list1:hover{
+    background: url(./img/O9HO.gif) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 300px;
+    height: 300px;
+}
+.block_list1:hover img{
+    margin-top: 300px;
+}
+.block_list2{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    background: linear-gradient(-120deg, rgb(155, 0, 0),rgb(172, 103, 0));
+}
+.block_list2 img{
+    height: 270px;
+}
+.block_list2:hover{
+    background: url(./img/8izx.gif) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 300px;
+    height: 300px;
+}
+.block_list2:hover img{
+    display: none;
+}
+.block_list3{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    background: linear-gradient(220deg, rgba(2, 0, 92, 0.719), rgba(104, 2, 2, 0.411));
+}
+.block_list3 img{
+    height: 270px;
+}
+.block_list3:hover{
+    background: url(./img/FE3W.gif) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 300px;
+    height: 300px;
+}
+.block_list3:hover img{
+    display: none;
+}
+.block_list4{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    background: linear-gradient(60deg, black, rgb(92, 92, 92));
+}
+.block_list4 img{
+    height: 270px;
+}
+.block_list4:hover{
+    background: url(./img/6TAH.gif) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 300px;
+    height: 300px;
+}
+.block_list4:hover img{
+    display: none;
+}
+
+.layout{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+    left: 168px;
+}
+.spider{
+    width: 1200px;
+    height: 600px;
+    background: url(./img/Amazing-Spider-man-poster-s-sajta-Geekster.ru_-770x408.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* display: none; */
+}
+.img1{
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 480px;
+    transition: all 2s;
+}
+.line{
+    position: absolute;
+    top: 0;
+    left: 559px;
+    width: 1px;
+    height: 50px;
+    background-color: rgb(214, 214, 214);
+    transition: all 2s;
+}
+.img2{
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    transition: all 4s;
+}
+.img3{
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.img4{
+    height: 450px;
+    position: absolute;
+    bottom: -3px;
+    left: 800px;
+}
+.shadow{
+    width: 1200px;
+    height: 600px;
+    /* background-color: rgba(68, 68, 68, 0.459) */
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+}
+.spider_info{
+    width: 150px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 320px;
+}
+.spider_info p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+}
+.spider_info2{
+    width: 150px;
+    height: 180px;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 430px;
+}
+.spider_info2 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+}
+.spider_info2 button{
+    width: 170px;
+    height: 30px;
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px solid black;
+}
+.spider_info2 button p{
+    font-size: 20px;
+}
+.block_img5{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(-210deg, rgba(78, 156, 0, 0.658), rgba(0, 51, 20, 0.671));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    display: none;
+}
+.block_img5 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.img5{
+    height: 300px;
+    margin: auto;
+    display: block;
+    position: relative;
+    left: -20px;
+}
+.block_img6{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(210deg, rgba(70, 83, 121, 0.63), rgba(40, 72, 255, 0.671));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    display: none;
+}
+.block_img6 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.img6{
+    height: 290px;
+    /* position: absolute;
+    bottom: 20px;
+    left: 300px; */
+    margin: auto;
+    display: block;
+}
+ .block_img7{ 
+    width: 300px;
+    height: 300px;
+    /* background-color: rgba(46, 46, 46, 0.658); */
+    background: linear-gradient(-210deg, rgba(0, 0, 0, 0.671), rgba(87, 87, 87, 0.692));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    display: none;
+} 
+.block_img7 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.img7{
+    height: 350px;
+    margin: auto; 
+    display: block;
+}
+.block_img8{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(-210deg, rgba(90, 90, 90, 0.842), rgba(0, 0, 0, 0.671));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    display: none;
+}
+.block_img8 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.img8{
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+    left: -30px;
+    margin: auto; 
+    display: block;
+}
+.block_img9{
+    width: 300px;
+    height: 287px;
+    background: linear-gradient(-210deg,rgba(218, 185, 0, 0.342) , rgba(124, 143, 56, 0.671));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    display: none; 
+}
+.block_img9 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.img9{
+    height: 250px;
+    margin: auto; 
+    display: block;
+}
+.block_img10{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(-210deg,rgba(29, 56, 1, 0.658) , rgba(20, 126, 6, 0.671));
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    display: none;
+}
+.block_img10 p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    height: 55px;
+}
+.img10{
+    height: 320px;
+    margin: auto; 
+    display: block;
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+}
+#button10{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#button11{
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    z-index: 1;
+    width: 150px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+.gif1{
+    width: 360px;
+    height: 200px;
+    background: url(.//img/5XQl.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    z-index: 1;
+    display: none;
+}
+
+
+
+#layout2{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+    left: 168px;
+    background: url(./img/9a239ad0a49475d7b042284b2f9f29.png) no-repeat;
+}
+.iron{
+    width: 1200px;
+    height: 600px;
+    background: url(./img/b0f51c141e35460799d22f3025cd.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* display: none; */
+    /* bottom: 50px; */
+}
+.shadow2{
+    width: 1200px;
+    height: 600px;
+    /* background-color: rgba(68, 68, 68, 0.459) */
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+}
+.img11{
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    bottom: -10px;
+    left: 50px;
+}
+.img12{
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+    right: -20px;
+    transition: all 4s;
+}
+.img13{
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    bottom: -42px;
+    left: 500px;
+}
+.iron_info{
+    width: 180px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 360px;
+}
+.iron_info p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.gift2{
+    width: 320px;
+    height: 200px;
+    background: url(./img/E5TV.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: -500px;
+    top: 80px;
+    z-index: 1;
+    /* display: none; */
+}
+#button12{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 180px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#button13{
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    z-index: 1;
+    width: 110px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+
+
+
+#layout3{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+    left: 168px;
+}
+.cap{
+    width: 1200px;
+    height: 600px;
+    background: url(./img/captain-america-first-avenger-wallpaper-900x444.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* display: none; */
+    /* bottom: 50px; */
+}
+.shadow3{
+    width: 1200px;
+    height: 600px;
+    /* background-color: rgba(68, 68, 68, 0.459) */
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+    /* z-index: -1; */
+}
+.img14{
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+}
+.img15{
+    height: 200px;
+    z-index: 2;
+    position: absolute;
+    bottom: 100px;
+    left: 165px;
+    transition: all 4s;
+}
+.img16{
+    height: 250px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+}
+.img17{
+    height: 350px;
+    z-index: 2;
+    position: absolute;
+    bottom: -5px;
+    left: 510px;
+}
+#img18{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    /* display: none; */
+    border: 1px solid white;
+}
+#img18d{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    display: none;
+}
+.img19{
+    position: absolute;
+    right: -130px;
+    top: -30px;
+    height: 30px;
+}
+.cap_info a{
+    color: red;
+    font-size: 22px;
+}
+.cap_info{
+    width: 180px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 615px;
+}
+.cap_info p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+#button14{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#button15{
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    z-index: 1;
+    width: 110px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#gift3{
+    width: 350px;
+    height: 220px;
+    background: url(./img/O7uv.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: -520px;
+    top: 80px;
+    z-index: 1;
+    /* display: none; */
+}
+
+
+
+#layout4{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+    left: 168px;
+
+}
+.pantera{
+    width: 1200px;
+    height: 600px;
+    background: url(./img/chiornaia-pantera-black-panther-marvel-supergeroi-komiks-chi.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.shadow4{
+    width: 1200px;
+    height: 600px;
+    /* background-color: rgba(68, 68, 68, 0.459) */
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    /* z-index: -1; */
+}
+.img20{
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+}
+.img21{
+    height: 200px;
+    z-index: 2;
+    position: absolute;
+    bottom: -50px;
+    left: -1250px;
+    transition: all 3s;
+}
+.img22{
+    height: 400px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    left: 450px;
+}
+.pantera_info{
+    width: 180px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 550px;
+}
+.pantera_info p{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+#button16{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#button17{
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    z-index: 1;
+    width: 110px;
+    height: 40px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 1px solid black;
+}
+#gift4{
+    width: 350px;
+    height: 220px;
+    background: url(./img/2R7N.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: -520px;
+    top: 80px;
+    z-index: 1;
+    /* display: none; */
+    border: 1px solid white;
+}
